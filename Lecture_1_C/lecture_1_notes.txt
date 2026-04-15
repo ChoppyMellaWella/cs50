@@ -1,0 +1,25 @@
+source code: something that we can understand and read/write in
+machine code: something computers can understand (0s and 1)
+
+need to translate our source code to machine code
+source code -> [box] -> machine code
+
+source code -> compiler -> machine code
+
+compiler = software that takes source code as input and outputs machine code
+
+code hello.c | make C file hello
+make hello | compile program called help and automatically search for .c file thats hello
+./hello | current directory, run hello program
+
+header files
+ - bunch of files that end with .h
+ - contain code that other people wrote that you can use in your
+   own program
+ - header files give access to libraries
+
+ libraries
+ - code that someone else made you can use
+
+ stdio.h
+ - standard input output
